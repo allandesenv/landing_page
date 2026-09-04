@@ -1,0 +1,80 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="94" y1="72" x2="990" y2="1280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="0.48" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="412" y1="420" x2="672" y2="742" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E0B6"/>
+      <stop offset="1" stop-color="#E9A967"/>
+    </linearGradient>
+    <linearGradient id="muzzle" x1="468" y1="590" x2="616" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FED7AA"/>
+    </linearGradient>
+    <filter id="shadow" x="150" y="160" width="780" height="860" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="32" stdDeviation="38" flood-color="#020617" flood-opacity="0.48"/>
+    </filter>
+    <filter id="blur" x="-120" y="-120" width="1320" height="1590" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1350" rx="72" fill="url(#bg)"/>
+  <g opacity="0.32" filter="url(#blur)">
+    <circle cx="130" cy="180" r="170" fill="#EC4899"/>
+    <circle cx="930" cy="1080" r="230" fill="#F59E0B"/>
+  </g>
+
+  <g opacity="0.26">
+    <rect x="98" y="212" width="108" height="108" rx="24" fill="#22D3EE"/>
+    <rect x="214" y="212" width="108" height="108" rx="24" fill="#A78BFA"/>
+    <rect x="98" y="328" width="108" height="108" rx="24" fill="#F472B6"/>
+    <rect x="758" y="206" width="108" height="108" rx="24" fill="#FBBF24"/>
+    <rect x="874" y="206" width="108" height="108" rx="24" fill="#FB7185"/>
+    <rect x="874" y="322" width="108" height="108" rx="24" fill="#34D399"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="208" y="236" width="664" height="748" rx="78" fill="#11152D" fill-opacity="0.95" stroke="#C4B5FD" stroke-opacity="0.22" stroke-width="2"/>
+
+    <g opacity="0.9">
+      <rect x="282" y="314" width="88" height="88" rx="20" fill="#22D3EE"/>
+      <rect x="378" y="314" width="88" height="88" rx="20" fill="#22D3EE"/>
+      <rect x="474" y="314" width="88" height="88" rx="20" fill="#A78BFA"/>
+      <rect x="570" y="314" width="88" height="88" rx="20" fill="#F472B6"/>
+      <rect x="666" y="314" width="88" height="88" rx="20" fill="#FBBF24"/>
+      <rect x="282" y="410" width="88" height="88" rx="20" fill="#34D399"/>
+      <rect x="666" y="410" width="88" height="88" rx="20" fill="#FB7185"/>
+    </g>
+
+    <path d="M402 509C353 455 315 481 326 545C334 593 363 642 407 673L438 584L402 509Z" fill="#B7794B"/>
+    <path d="M676 509C725 455 763 481 752 545C744 593 715 642 671 673L640 584L676 509Z" fill="#B7794B"/>
+
+    <ellipse cx="539" cy="643" rx="184" ry="176" fill="url(#fur)"/>
+    <path d="M421 560C455 515 494 493 539 493C584 493 626 517 657 562C616 547 579 544 539 545C499 545 459 548 421 560Z" fill="#C98954"/>
+
+    <ellipse cx="478" cy="622" rx="20" ry="25" fill="#111827"/>
+    <ellipse cx="600" cy="622" rx="20" ry="25" fill="#111827"/>
+    <circle cx="471" cy="614" r="6" fill="white"/>
+    <circle cx="593" cy="614" r="6" fill="white"/>
+
+    <ellipse cx="539" cy="690" rx="90" ry="70" fill="url(#muzzle)"/>
+    <path d="M515 663C525 650 553 650 563 663C570 674 558 690 539 690C520 690 508 674 515 663Z" fill="#1F2937"/>
+    <path d="M539 689C539 718 522 734 494 736" stroke="#7C2D12" stroke-width="8" stroke-linecap="round"/>
+    <path d="M539 689C539 718 556 734 584 736" stroke="#7C2D12" stroke-width="8" stroke-linecap="round"/>
+    <path d="M518 744C531 757 547 758 561 744" stroke="#EF4444" stroke-width="12" stroke-linecap="round"/>
+
+    <g opacity="0.92">
+      <rect x="318" y="840" width="92" height="92" rx="22" fill="#FB7185"/>
+      <rect x="418" y="840" width="92" height="92" rx="22" fill="#FBBF24"/>
+      <rect x="518" y="840" width="92" height="92" rx="22" fill="#34D399"/>
+      <rect x="618" y="840" width="92" height="92" rx="22" fill="#22D3EE"/>
+    </g>
+  </g>
+
+  <text x="540" y="1090" text-anchor="middle" fill="#FFFFFF" font-size="86" font-weight="800" font-family="Arial, Helvetica, sans-serif" letter-spacing="1">DOGGO CASCADE</text>
+  <text x="540" y="1166" text-anchor="middle" fill="#DDD6FE" font-size="34" font-weight="600" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">BLOCOS • RITMO • DIVERSÃO</text>
+  <text x="540" y="1248" text-anchor="middle" fill="#EDE9FE" fill-opacity="0.7" font-size="28" font-family="Arial, Helvetica, sans-serif">Jogue rápido. Combine. Supere sua melhor marca.</text>
+</svg>
