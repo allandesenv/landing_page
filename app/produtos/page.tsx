@@ -45,8 +45,8 @@ const products = [
   {
     name: "Doggo Cascade",
     category: "Puzzle & diversão casual",
-    image: "/products/doggo-app-icon.svg",
-    imageAlt: "Ícone do Doggo Cascade",
+    image: "/products/doggo-app-icon.jpg",
+    imageAlt: "Ícone oficial do Doggo Cascade",
     accent: "from-violet-400/18 via-fuchsia-400/8 to-transparent",
     iconGlow: "shadow-[0_18px_46px_rgba(139,92,246,0.22)]",
     description:
@@ -89,25 +89,25 @@ export default function ProductsPage() {
               key={product.name}
               className="relative overflow-hidden rounded-[1.8rem] border border-white/10 bg-white/[0.045] px-5 pb-6 pt-5 shadow-[0_22px_60px_rgba(2,6,23,0.4)] backdrop-blur-xl sm:px-7 sm:pb-7 sm:pt-7"
             >
-              <div className={`pointer-events-none absolute inset-x-0 top-0 h-44 bg-gradient-to-b ${product.accent}`} />
+              <div className={`pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b ${product.accent}`} />
 
               <div className="relative flex items-start gap-4 sm:gap-5">
                 <img
                   src={product.image}
                   alt={product.imageAlt}
-                  className={`h-[88px] w-[88px] shrink-0 rounded-[22px] border border-white/10 bg-slate-950 object-cover ${product.iconGlow} sm:h-28 sm:w-28 sm:rounded-[27px]`}
+                  className={`h-[76px] w-[76px] shrink-0 rounded-[19px] border border-white/10 bg-slate-950 object-cover ${product.iconGlow} sm:h-24 sm:w-24 sm:rounded-3xl`}
                 />
-                <div className="min-w-0 pt-1">
-                  <p className="text-[0.67rem] font-semibold uppercase leading-4 tracking-[0.18em] text-sky-300/80 sm:text-xs">
+                <div className="min-w-0 pt-0.5">
+                  <p className="text-[0.64rem] font-semibold uppercase leading-4 tracking-[0.16em] text-sky-300/80 sm:text-xs">
                     {product.category}
                   </p>
-                  <h2 className="display-font mt-2 text-2xl font-semibold leading-tight text-white sm:text-3xl">
+                  <h2 className="display-font mt-1.5 text-[1.55rem] font-semibold leading-tight text-white sm:text-3xl">
                     {product.name}
                   </h2>
                 </div>
               </div>
 
-              <p className="relative mt-5 text-[0.94rem] leading-6 text-slate-300 sm:text-base sm:leading-7">
+              <p className="relative mt-4 text-[0.93rem] leading-6 text-slate-300 sm:text-base sm:leading-7">
                 {product.description}
               </p>
 
@@ -130,10 +130,10 @@ export default function ProductsPage() {
             <Sparkles className="h-5 w-5" aria-hidden="true" />
           </div>
           <h2 className="display-font mt-4 text-2xl font-semibold text-white sm:text-3xl">
-            Mais novidades estão a caminho.
+            Mais produtos em breve.
           </h2>
           <p className="mx-auto mt-2 max-w-lg text-sm leading-6 text-slate-400 sm:text-base sm:leading-7">
-            A Zenith IT continua criando novas experiências digitais. Em breve, novos produtos por aqui.
+            Novos apps, jogos e experiências digitais da Zenith IT já estão a caminho.
           </p>
         </section>
 
