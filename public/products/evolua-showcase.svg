@@ -1,0 +1,57 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="80" x2="1010" y2="1270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#052E2B"/>
+      <stop offset="0.48" stop-color="#0B5D4C"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="382" y1="380" x2="680" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="278" y1="300" x2="760" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFDF5" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0.22"/>
+    </linearGradient>
+    <filter id="shadow" x="180" y="170" width="720" height="850" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="36" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+    <filter id="blur" x="-100" y="-100" width="1280" height="1550" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1350" rx="72" fill="url(#bg)"/>
+  <g opacity="0.32" filter="url(#blur)">
+    <circle cx="154" cy="190" r="150" fill="#2DD4BF"/>
+    <circle cx="934" cy="1120" r="210" fill="#22C55E"/>
+  </g>
+
+  <g opacity="0.14" stroke="#D1FAE5">
+    <circle cx="540" cy="550" r="382"/>
+    <circle cx="540" cy="550" r="314"/>
+    <circle cx="540" cy="550" r="246"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="228" y="214" width="624" height="742" rx="74" fill="#071A21" fill-opacity="0.92" stroke="#A7F3D0" stroke-opacity="0.2" stroke-width="2"/>
+    <rect x="260" y="246" width="560" height="678" rx="54" fill="#0B2530"/>
+
+    <circle cx="540" cy="522" r="184" stroke="url(#ring)" stroke-width="18"/>
+    <circle cx="540" cy="522" r="146" fill="#073B36" stroke="#A7F3D0" stroke-opacity="0.24" stroke-width="2"/>
+
+    <path d="M537 662C472 619 427 562 427 497C427 432 477 389 539 389C541 389 543 389 545 389C612 390 655 438 655 503C655 573 604 629 537 662Z" fill="url(#leaf)"/>
+    <path d="M541 624C540 532 564 470 614 425" stroke="#064E3B" stroke-width="16" stroke-linecap="round"/>
+    <path d="M540 553C500 526 477 499 466 460" stroke="#064E3B" stroke-width="12" stroke-linecap="round"/>
+
+    <path d="M343 745C409 705 468 700 540 729C615 758 671 757 746 714" stroke="#5EEAD4" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+    <path d="M343 784C407 750 470 748 540 774C614 801 682 798 746 758" stroke="#34D399" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+
+    <rect x="343" y="838" width="394" height="18" rx="9" fill="#A7F3D0" fill-opacity="0.18"/>
+    <rect x="395" y="876" width="290" height="14" rx="7" fill="#A7F3D0" fill-opacity="0.1"/>
+  </g>
+
+  <text x="540" y="1080" text-anchor="middle" fill="#ECFDF5" font-size="96" font-weight="750" font-family="Arial, Helvetica, sans-serif" letter-spacing="6">EVOLUA</text>
+  <text x="540" y="1158" text-anchor="middle" fill="#A7F3D0" font-size="34" font-weight="600" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">PRESENÇA • CLAREZA • EVOLUÇÃO</text>
+  <text x="540" y="1245" text-anchor="middle" fill="#D1FAE5" fill-opacity="0.68" font-size="28" font-family="Arial, Helvetica, sans-serif">Autoconhecimento para o seu dia a dia</text>
+</svg>
