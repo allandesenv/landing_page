@@ -1,0 +1,42 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="44" y1="28" x2="470" y2="486" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17173D"/>
+      <stop offset="0.5" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="194" y1="185" x2="320" y2="351" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E0B6"/>
+      <stop offset="1" stop-color="#E9A967"/>
+    </linearGradient>
+    <linearGradient id="muzzle" x1="220" y1="283" x2="292" y2="342" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FED7AA"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="72" y="74" width="70" height="70" rx="17" fill="#22D3EE"/>
+  <rect x="150" y="74" width="70" height="70" rx="17" fill="#22D3EE"/>
+  <rect x="228" y="74" width="70" height="70" rx="17" fill="#A78BFA"/>
+  <rect x="306" y="74" width="70" height="70" rx="17" fill="#F472B6"/>
+  <rect x="384" y="74" width="56" height="70" rx="17" fill="#FBBF24"/>
+  <rect x="72" y="152" width="70" height="70" rx="17" fill="#34D399"/>
+  <rect x="370" y="152" width="70" height="70" rx="17" fill="#FB7185"/>
+  <path d="M192 219C158 181 132 199 140 243C146 276 166 310 197 331L218 270L192 219Z" fill="#B7794B"/>
+  <path d="M320 219C354 181 380 199 372 243C366 276 346 310 315 331L294 270L320 219Z" fill="#B7794B"/>
+  <ellipse cx="256" cy="307" rx="124" ry="119" fill="url(#fur)"/>
+  <path d="M176 251C199 220 227 205 256 205C287 205 315 221 336 252C309 241 283 239 256 240C229 240 201 242 176 251Z" fill="#C98954"/>
+  <ellipse cx="216" cy="292" rx="14" ry="18" fill="#111827"/>
+  <ellipse cx="296" cy="292" rx="14" ry="18" fill="#111827"/>
+  <circle cx="211" cy="286" r="4" fill="white"/>
+  <circle cx="291" cy="286" r="4" fill="white"/>
+  <ellipse cx="256" cy="338" rx="61" ry="48" fill="url(#muzzle)"/>
+  <path d="M240 320C247 311 265 311 272 320C277 328 269 338 256 338C243 338 235 328 240 320Z" fill="#1F2937"/>
+  <path d="M256 337C256 357 244 368 225 369" stroke="#7C2D12" stroke-width="6" stroke-linecap="round"/>
+  <path d="M256 337C256 357 268 368 287 369" stroke="#7C2D12" stroke-width="6" stroke-linecap="round"/>
+  <path d="M242 374C251 383 262 383 271 374" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/>
+  <rect x="104" y="410" width="66" height="66" rx="16" fill="#FB7185"/>
+  <rect x="178" y="410" width="66" height="66" rx="16" fill="#FBBF24"/>
+  <rect x="252" y="410" width="66" height="66" rx="16" fill="#34D399"/>
+  <rect x="326" y="410" width="66" height="66" rx="16" fill="#22D3EE"/>
+</svg>
